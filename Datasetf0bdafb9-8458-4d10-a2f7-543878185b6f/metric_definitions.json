@@ -1,0 +1,15 @@
+{
+  "version": "0.0.2",
+  "metric_definitions": [
+    {
+      "@type": "type.unity.com/unity.solo.GenericMetric",
+      "id": "scenario_iteration",
+      "description": "Iteration information for dataset sequences"
+    },
+    {
+      "@type": "type.unity.com/unity.solo.GenericMetric",
+      "id": "random-seed",
+      "description": "The random seed used to initialize the random state of the simulation. Only triggered once per simulation."
+    }
+  ]
+}
